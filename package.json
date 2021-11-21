@@ -1,0 +1,19 @@
+{
+  "name": "reddit-comments-scrapper",
+  "version": "1.0.0",
+  "description": "A simple comments scrapper using puppeteer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "keywords": [],
+  "author": "elkinano",
+  "license": "ISC",
+  "dependencies": {
+	"dotenv": "^10.0.0",
+	"google-spreadsheet": "^3.1.15",
+	"puppeteer": "^10.4.0"
+  }
+}
